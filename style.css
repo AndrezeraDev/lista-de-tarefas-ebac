@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fe5000;
+}
+
+.container-principal {
+    width: 400px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 100px ;
+    border: 2px solid black;
+    border-radius: 16px;
+    height: 350px;
+    padding: 47px;
+    background-color: #fda616;
+    box-shadow: 18px 19px;
+}
+
+#first-text {
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: -210px;
+    margin-top: 50px;
+    color: #ffe9a0;
+}
+
+#first-input {
+    margin-bottom: 15px;
+    margin-top: 16px;
+    margin-left: 22px;
+    padding: 16px;
+    width: 300px;
+}
+
+#btn {
+    width: 44px;
+    height: 32px;
+    border: 2px solid #f7ecc9;
+    border-radius: 7px;
+    background-color: rgb(47, 153, 47);
+    color: #f7ecc9;
+    cursor: pointer;
+}
+
+#btn:hover {
+    transition: 0.7s ease;
+    color: black;
+    border: 2px solid black;
+}
+
+#inserir-tarefa {
+    border: 1px solid #ffe9a0;
+    border-radius: 10px;
+    padding: 7px;
+    outline: none;
+    background-color: #f7ecc9;
+}
+
+#inserir-tarefa:focus {
+    border: 2px solid rgb(47, 153, 47) ;
+}
+
+#tarefas {
+    margin-left: 35px;
+    /*text-decoration: line-through*/
+    cursor: pointer;
+    max-height: 150px; /* Limita a altura da lista de tarefas */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+}
+
+#btn-clear {
+    bottom: 230px; 
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 115px;
+    width: 100px;
+    height: 32px;
+    border: 2px solid #f7ecc9;
+    border-radius: 7px;
+    background-color: rgb(194, 52, 52);
+    color: #f7ecc9;
+    cursor: pointer;
+}
+
+#btn-clear:hover {
+    transition: 0.5s ease;
+    color: black;
+    border: 2px solid black;
+}
+
